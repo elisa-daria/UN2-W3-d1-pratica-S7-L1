@@ -44,7 +44,7 @@ class Pet {
 }
 
 const gettingForm = document.getElementsByTagName("form")[0];
-formReference.addEventListener("submit", function (e) {
+gettingForm.addEventListener("submit", function (e) {
   e.preventDefault();
   const pet = new Pet(
     petName.value,
