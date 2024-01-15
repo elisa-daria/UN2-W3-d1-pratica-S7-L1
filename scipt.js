@@ -27,7 +27,7 @@ const petsHuman = document.getElementById("humanPet");
 const species = document.getElementById("species");
 const breed = document.getElementById("breed");
 
-const getButton = document.getElementsByTagName("form")[0];
+const getButton = document.getElementsByTagName("button")[0];
 
 const pets = [];
 
