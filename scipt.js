@@ -42,3 +42,14 @@ class Pet {
     return this.petsHuman === anotherPet.petsHuman;
   }
 }
+
+const gettingForm = document.getElementsByTagName("form")[0];
+formReference.addEventListener("submit", function (e) {
+  e.preventDefault();
+  const pet = new Pet(
+    petName.value,
+    petsHuman.value,
+    species.value,
+    breed.value
+  );
+});
