@@ -52,4 +52,5 @@ formReference.addEventListener("submit", function (e) {
     species.value,
     breed.value
   );
+  pets.push(pet);
 });
